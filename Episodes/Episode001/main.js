@@ -5,5 +5,6 @@ window.onload = function () {
 	var height = canvas.height = window.innerHeight;
 
 	// make the screen black
+	context.fillStyle = '#000000';
 	context.fillRect(0, 0, width, height);
 };
