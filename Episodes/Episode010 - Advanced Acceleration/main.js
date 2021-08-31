@@ -11,6 +11,8 @@ window.onload = function () {
 	var turningRight = false;
 	var thrusting = false;
 
+	ship.friction = 0.99;
+
 	update();
 
 	function update() {
